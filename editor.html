@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editor</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="css/iconfont.css">
+</head>
+<body>
+  <h1>EasyEditor</h1>
+  <div id="editor">
+    <div id="tool-bar">
+      <button id="bold" class="iconfont" title="加粗">&#xe516;</button>
+      <button id="italic" class="iconfont" title="斜体">&#xe51b;</button>
+      <button id="strikethrough" class="iconfont" title="删除线">&#xe51c;</button>
+      <button id="underline" class="iconfont" title="下滑线">&#xe51e;</button>
+      <button id="ordered-list" class="iconfont" title="有序列表">&#xe51a;</button>
+      <button id="unordered-list" class="iconfont" title="无序列表">&#xe521;</button>
+      <button id="link" class="iconfont" title="添加链接">&#xe519;</button>
+      <button id="align-left" class="iconfont" title="靠左">&#xe517;</button>
+      <button id="align-center" class="iconfont" title="居中">&#xe520;</button>
+      <button id="align-right" class="iconfont" title="靠右">&#xe522;</button>
+      <button id="undo" class="iconfont" title="撤销">&#xe51f;</button>
+      <button id="redo" class="iconfont" title="重做撤销">&#xe51d;</button>
+    </div>
+    <div id="container">
+      <div id="input-box" contenteditable>
+        <p>
+          请输入内容...
+        </p>
+      </div>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
